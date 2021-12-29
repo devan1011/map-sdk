@@ -1,0 +1,3 @@
+#!/bin/bash
+
+docker run -it -w /home/node/src -v $PWD:/home/node/src -p 8085:8085 node:16-alpine $@
